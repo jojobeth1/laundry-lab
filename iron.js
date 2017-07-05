@@ -1,3 +1,4 @@
+
 var wrinkled_clothes = [
   "grEEn shIrt",
   "TubE sockS",
@@ -7,11 +8,10 @@ var wrinkled_clothes = [
   "whItE bLousE"
 ];
 
-/* YOUR CODE HERE */
+
 function iron(clothing_item){
     // return ironed_clothing_item;
+    return clothing_item.toLowerCase();
 }
 
-
-/* PRINT RESULT */
-console.log("--> Finished running iron.js");
+iron ("grEEn shIrt")
