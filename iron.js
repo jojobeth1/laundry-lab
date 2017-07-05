@@ -7,19 +7,18 @@ var wrinkled_clothes = [
   "HAndKerChief",
   "whItE bLousE"
 ];
-
+// For One item
 
 function iron(clothing_item){
-    // return ironed_clothing_item;
     return clothing_item.toLowerCase();
 }
-
 iron ("grEEn shIrt")
-
 
 // =====================================================================
 /*function that takes the array "wrinkled clothes" and for each element
 in the array (mapping) it will return string in lowercase*/
-wrinkled_clothes.map (function iron(item){
-  return item.toLowerCase();
-});
+function iron(clothing_item){
+    return clothing_item.toLowerCase();
+}
+
+var output = wrinkled_clothes.map(iron);
