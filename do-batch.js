@@ -47,7 +47,7 @@ let allClean = dirty_clothes.map(cleaned)
 
 // BATCH -->
 function doBatch(clothes) {
-    return iron(mend(cleaned(clothes)));
+    
 }
 
 doBatch(["pLe*A/tED SKirt", "f*AncY T/Ie"]);
